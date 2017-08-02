@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>fimAPI</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>getAddClassInfo</servlet-name>
+    <servlet-class>servlet.getAddClassInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getAddClassInfo</servlet-name>
+    <url-pattern>/getAddClassInfo</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>getAddInfo</servlet-name>
+    <servlet-class>servlet.getAddInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getAddInfo</servlet-name>
+    <url-pattern>/getAddInfo</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>getHealthFood</servlet-name>
+    <servlet-class>servlet.getHealthFoodServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getHealthFood</servlet-name>
+    <url-pattern>/getHealthFood</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>getProduct</servlet-name>
+    <servlet-class>servlet.getProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getProduct</servlet-name>
+    <url-pattern>/getProduct</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>getVioAdvert</servlet-name>
+    <servlet-class>servlet.getVioAdvertServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getVioAdvert</servlet-name>
+    <url-pattern>/getVioAdvert</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>getVioHistory</servlet-name>
+    <servlet-class>servlet.getVioHistoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getVioHistory</servlet-name>
+    <url-pattern>/getVioHistory</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>getHealthFoodByEffect</servlet-name>
+    <servlet-class>servlet.getHealthFoodByEffectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getHealthFoodByEffect</servlet-name>
+    <url-pattern>/getHealthFoodByEffect</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>InsertProduct</servlet-name>
+    <servlet-class>servlet.InsertProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertProduct</servlet-name>
+    <url-pattern>/InsertProduct</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>UpdateProduct</servlet-name>
+    <servlet-class>servlet.UpdateProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProduct</servlet-name>
+    <url-pattern>/UpdateProduct</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+</web-app>
